@@ -1,0 +1,23 @@
+{
+  "name": "hiberus/lazy-load",
+  "description": "Lazy Load Images",
+  "keywords": ["lazy", "load", "images"],
+  "type": "magento2-module",
+  "authors": [
+    {
+      "name": "Alan Bel",
+      "email": "abell@hiberus.com"
+    }
+  ],
+  "require": {
+    "magento-framework": "*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Hiberus\\LazyLoad\\": ""
+    }
+  }
+}

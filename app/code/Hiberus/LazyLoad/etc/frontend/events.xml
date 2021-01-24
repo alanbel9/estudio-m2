@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../lib/internal/Magento/Framework/Event/etc/events.xsd">
+    <event name="view_block_abstract_to_html_after">
+        <observer name="block_image_lazy_load" instance="Hiberus\LazyLoad\Observer\BlockImageLazyLoad" />
+    </event>
+</config>
